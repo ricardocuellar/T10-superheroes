@@ -85,3 +85,35 @@ section.card i.fa-heart{
     font-size: 30px;
     color: #CC2424;
 }
+
+footer{
+    background-color: #00669F;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a i.fa-github{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button.float-button{
+    padding: 15px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #00669F;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    width: 15%;
+}
+
