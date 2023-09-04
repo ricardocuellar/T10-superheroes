@@ -35,11 +35,13 @@ section.card{
     border-radius: 1px;
     box-shadow: 0px 2px 0px rgba(0,0,0,0.1);
     position: relative;
-
+    border-radius: 2rem 2rem 0 0;
 }
 
 section.card div.fondo img{
     width: 100%;
+    border-radius: 2rem 2rem 0 0;
+
 }
 
 section.card div.info{
@@ -51,7 +53,8 @@ section.card div.info{
 
 section.card div.info img{
     border-radius: 100%;
-
+    width: 35%;
+    margin: 0 auto;
 }
 
 section.card div.info h3{
@@ -117,6 +120,15 @@ button.float-button{
     width: 15%;
 }
 
+section.harley_queen{
+    display: none;
+}
+
+img.profile_desktop{
+    display: none;
+}
+
+
 
 @media(min-width: 768px){
     main.cards{
@@ -127,6 +139,22 @@ button.float-button{
     section.card{
         width: 45%;
         margin: 10px;
+    }
+
+    button.float-button{
+        width: 8%;
+    }
+
+    section.harley_queen{
+        display: inline-block;
+    }
+
+    img.profile_desktop{
+        display: block;
+    }
+
+    img.profile_mobile{
+        display: none;
     }
 }
 
@@ -139,5 +167,9 @@ button.float-button{
     section.card{
         width: 30%;
         margin: 10px;
+    }
+
+    button.float-button{
+        width: 6%;
     }
 }
