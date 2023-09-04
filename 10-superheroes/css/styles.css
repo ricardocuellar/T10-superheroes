@@ -117,3 +117,27 @@ button.float-button{
     width: 15%;
 }
 
+
+@media(min-width: 768px){
+    main.cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.card{
+        width: 45%;
+        margin: 10px;
+    }
+}
+
+@media(min-width: 1024px){
+    main.cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section.card{
+        width: 30%;
+        margin: 10px;
+    }
+}
