@@ -11,6 +11,9 @@ div.topbar{
     background-color: #D1891C;
     padding: 4px 30px;
     font-size: 18px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 div.title{
@@ -18,13 +21,20 @@ div.title{
     color: #ffffff;
     padding: 20px 30px;
     font-size: 14px;
+    position: relative;
+    top: 29px;
+    bottom: 29px;
+    margin-bottom: 45px;
+    box-shadow: 0px 4px 8px grey;
 }
 
 
 section.card{
     background-color: #F3F3F3;
     margin: 20px 30px;
-    border-radius: 10px;
+    border-radius: 1px;
+    box-shadow: 0px 2px 0px rgba(0,0,0,0.1);;
+
 }
 
 section.card div.fondo img{
