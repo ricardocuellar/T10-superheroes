@@ -105,6 +105,11 @@ footer a i.fa-github{
     margin-top: 10px;
 }
 
+footer a img.github{
+    width: 100px;
+    margin-top: 10px;
+}
+
 button.float-button{
     padding: 15px;
     border-radius: 50%;
@@ -129,7 +134,7 @@ img.profile_desktop{
 }
 
 
-
+/*Tablet*/
 @media(min-width: 768px){
     main.cards{
         display: flex;
@@ -155,6 +160,12 @@ img.profile_desktop{
 
     img.profile_mobile{
         display: none;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 
